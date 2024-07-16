@@ -31,6 +31,27 @@ public class Main {
         System.out.println("dog1+box1+2="+result1);
         System.out.println("cat2+box2+2=" +result2);
         System.out.println("paper3+box3+2=" +result3);
+        System.out.println("Задача 3");
+        var dog4=12;
+        var cat5=7.6;
+        var paper6=763793;
+        System.out.println(" dog4=  " + dog4);
+        System.out.println(" cat5= " + cat5);
+        System.out.println(" paper6= " + paper6);
+        var box4=3.5;
+        var box5=1.6;
+        var box6=7639;
+        System.out.println(" box4="+box4);
+        System.out.println(" box5="+box5);
+        System.out.println(" box6="+box6);
+        var result4=dog4-box4;
+        var result5=cat5-box5;
+        var result6=paper6-box6;
+        System.out.println("dog4-box4="+result4);
+        System.out.println("cat5-box5=" +result5);
+        System.out.println("paper6-box6=" +result6);
+
+
 
 
     }
