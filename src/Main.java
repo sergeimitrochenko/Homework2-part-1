@@ -31,6 +31,7 @@ public class Main {
         System.out.println("dog1+box1+2="+result1);
         System.out.println("cat2+box2+2=" +result2);
         System.out.println("paper3+box3+2=" +result3);
+
         System.out.println("Задача 3");
         var dog4=12;
         var cat5=7.6;
@@ -62,6 +63,39 @@ public class Main {
         var result8=result7/enemy;
         System.out.println("result7/enemy="+result8);
 
+        System.out.println("Задача 5");
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
+        System.out.println("Задача 6");
+        var OneBoxer = 78.2;
+        System.out.println(OneBoxer);
+        var TwoBoxer = 82.7;
+        System.out.println(TwoBoxer);
+        var sumWeight = OneBoxer + TwoBoxer;
+        System.out.println("Общий вес боксеров составляет " + sumWeight + " кг");
+        var differenceWeight = TwoBoxer - OneBoxer;
+        System.out.println("Разница масс составляет " + differenceWeight + " кг!");
+
+        System.out.println("Задача 7");
+
+        var divisionWeight = TwoBoxer % OneBoxer;
+        System.out.println("Разница в весе " + divisionWeight + " кг!");
+
+        System.out.println("Задача 8");
+        var totalHours = 640;
+        var normHours = 8;
+        var staff = totalHours / normHours;
+        System.out.println(" Всего работников в компании " + staff );
+        staff = staff + 94;
+        var newHours = totalHours / staff;
+        System.out.println("Если в компании работает " + staff + " человек, то всего " + newHours + " часа работы может быть поделено между сотрудниками.");
 
 
 
