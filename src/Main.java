@@ -50,6 +50,18 @@ public class Main {
         System.out.println("dog4-box4="+result4);
         System.out.println("cat5-box5=" +result5);
         System.out.println("paper6-box6=" +result6);
+        System.out.println("Задача 4");
+        var friend=19;
+        var brother=2;
+        var enemy=7;
+        System.out.println(" friend= " +friend);
+        System.out.println(" brother="+brother);
+        System.out.println("enemy="+enemy);
+        var result7=friend+brother;
+        System.out.println("friend+brother="+result7);
+        var result8=result7/enemy;
+        System.out.println("result7/enemy="+result8);
+
 
 
 
